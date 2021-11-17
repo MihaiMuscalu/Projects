@@ -1,0 +1,44 @@
+.bigblue {
+    position: absolute;
+    background-color: aqua;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.orange {
+    background-color: orange;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.purple {
+    background-color: purple;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 0px;
+    top: 0px;
+}
+
+.flexbox {
+    position: relative;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 470px;
+}
+
+.box {
+    position: relative;
+    background-color: yellowgreen;
+    height: 100px;
+    width: 100px;
+}

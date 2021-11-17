@@ -1,0 +1,98 @@
+.ri {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+.si {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+.pi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+#countdown {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.start {
+    padding: 3vw;
+    width: 10vw;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1vw;
+    grid-column-gap: 10%;
+    align-items: center;
+    justify-items: center;
+}
+
+.scissors {
+    font-size: 3vw;
+    text-align: center;
+}
+
+#scissors {
+    width: 10vw;
+    height: 10vw;
+}
+
+#rock {
+    display: block;
+    width: 10vw;
+    height: 10vw;
+}
+
+#paper {
+    width: 10vw;
+    height: 10vw;
+}
+
+#start {
+    font-size: 2vw;
+    width: 10vw;
+    height: 10vw;
+}
+
+.rock {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.paper {
+    font-size: 3vw;
+    text-align: center;
+}
+
+#result {
+    margin: 5vw;
+    text-align: center;
+    font-size: 3vw;
+    width: 40vw;
+}
+
+#animation {
+    animation: pop 0.4s ease-in-out;
+    animation-delay: 1s;
+}
+
+@keyframes pop {
+    50% {
+        transform: scale(1.25);
+    }
+}

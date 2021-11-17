@@ -1,0 +1,52 @@
+.blue {
+    position: absolute;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.dblue {
+    position: absolute;
+    background-color: darkblue;
+    width: 50px;
+    height: 50px;
+    top: 40%;
+    right: 40%;
+    z-index: 9;
+}
+
+.violet {
+    position: relative;
+    background-color: violet;
+    width: 50px;
+    height: 50px;
+    left: 85%;
+    top: 85%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    border-style: dashed;
+    top: 25%;
+}
+
+.box {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: 1%;
+    background-color: greenyellow;
+}
+
+.box2 {
+    position: absolute;
+    background-color: orange;
+    width: 20px;
+    height: 20px;
+    bottom: 0px;
+}

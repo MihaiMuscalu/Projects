@@ -1,0 +1,42 @@
+.flex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    flex-direction: row;
+    width: 300px;
+    height: 300px;
+}
+
+.outerbox {
+    background-color: greenyellow;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.brownbox1 {
+    position: absolute;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.brownbox2 {
+    position: absolute;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+}
